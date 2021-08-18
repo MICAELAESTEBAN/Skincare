@@ -1,0 +1,98 @@
+@import "pages/skincare";
+
+table{
+    background-color: burlywood;
+    font-family: $fontBenne;
+    }
+    
+    .h2{
+        color: rgb(167, 16, 99);
+        font-weight: bolder;
+        font-family: $fontBenne;
+        }
+
+@import "pages/Skincareinargentina";
+
+        $tamanio: 15px;
+
+        .tamano{
+            font-size: $tamanio;
+            color: $bordo;
+        }
+
+        .tamano2{
+            font-size: $tamanio + 10px;
+            color: $bordo;
+        }
+
+        .tamano3{
+            font-size: $tamanio + 20px;
+            color: $bordo;
+        }
+
+    h2{
+        @if $tamanio > 10px{
+            color: $bordo2;
+        }@else if $tamanio < 15px{
+            color: $bordo;
+        }@else{
+            color: black;
+        }
+    }
+
+    .text1{
+        font-family: cursive;
+        font-weight: lighter;
+    }
+
+    .text2{
+        @extend .text1;
+        letter-spacing: 5px;
+    }
+
+    $yellow: #f4d35e;
+
+    .HeaderArg{
+        background-color: $yellow;
+        height: 100px;
+        width: 100%;
+        font-size: 80px;
+        color: cornsilk;
+        margin-bottom: 100px;
+    }
+
+    
+
+    @mixin sizes($width,$height) {
+        width: $width;
+        height: $height;
+        }
+
+    .sizediv{
+        
+        @include sizes(200px,100px)
+    }
+
+    $size1: 20px;
+    
+
+ .divstyles1{
+     font-size: $size1;
+     font-weight: bolder;
+     }
+
+.divstyle2{
+    font-size: $size1 + 5px;
+    font-weight: lighter;
+}
+
+.sectiondivs{
+    @if $size1 < 25px{
+    background-color: $yellow;
+}@else if $size1 > 20px{
+    background-color: $lightorange;
+    }@else{
+    background-color: white; 
+}
+}
+    

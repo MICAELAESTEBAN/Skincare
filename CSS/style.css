@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding:0; 
+}
+
+*{
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+/*Primer página "Home!*/
+.encabezado__index{
+    background-image: url(../Images/encabezado4.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+.body__index{
+    color: indianred;
+    font-weight: lighter;
+    font-family:"Shippori Mincho B1", serif;
+    background-color: rgb(252, 245, 245);
+}
+
+.ColorRosaOscuro {
+    color:rgb(128, 23, 44);
+}
+
+
+.li{
+    display: inline-block;
+    background-color: rgb(247, 206, 192);
+    padding: 5px 120px;
+    } 
+
+.padding{
+    padding: 40px;
+    
+    }
+
+.margin{
+    margin: 40px 40px;
+}
+
+    .space{
+        border-style: solid;
+        border-color: rgba(235, 181, 230, 0.644);
+        background-color: rgb(247, 233, 228);
+        margin: 100px 350px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        width:800px;
+        height: 100px
+        }
+
+    
+    .SectionImg{
+     width: 100%;
+    height: 360px;
+    animation-name: ImgAnimacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    background-color: aliceblue;
+    background-size: cover;
+    margin: 100px 0px 100px 0px;
+    background-repeat: no-repeat;
+    }
+
+ /* Imagenes con animación */
+@keyframes ImgAnimacion{
+    0%{
+        background-image: url(../Images/360_F_327531051_Ki8dRygTBXsyVCtXNvJqGbOK59ZPuak4.jpg);
+    }
+    25%{
+        background-image: url(../Images/arcillas.jpg);
+    }
+    50%{background-image: url(../Images/sabrina.jpg);
+    }
+    75%{
+        background-image: url(../Images/gygy.jpg);
+    }
+    100%{
+        background-image: url(../Images/hands.jpg);
+    }
+}
+
+.carrousel__index{
+    width: 600px;
+    height: 360px;
+}
+
+
+/*Transiciones en las imagenes */
+.Transicion1:hover{
+    transform: scale(1.1);
+}
+
+.imagen__contacto{
+    display: flex;
+    position:fixed;
+    bottom: 20px; right: 20px;
+     }
+
+ /*Submenu*/
+
+    .menu ul{
+        list-style: none;
+        }
+    .menu .item{
+        float:left;
+    }
+    .menu .item a{
+        padding:12px 22px ;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+    }
+    .menu .desple {
+        display: none;
+        }
+    .menu .item:hover .desple{
+        display: block;
+        position: absolute;
+        }
+
+/*Imagenes*/
+    .padre-flex{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-content: center;
+        }
+
+
+/*Segunda página "Skincare routine"*/
+.encabezado__skincare{
+    background-image: url(../Images/encabezosk2.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+
+.body__skincare{
+    color: rgb(194, 63, 63);
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif
+    background-image: linear-gradient(white,rgb(243, 223, 226),cornsilk);
+}
+
+.h1{
+    color: darkred;
+    font-weight: normal;
+}
+
+.h2{
+color: rgb(167, 16, 99);
+font-weight: bolder;
+}
+
+.fuente{
+    
+    font-weight: initial;
+    color: rgba(78, 11, 109, 0.692);
+}
+
+table{
+    background-color: burlywood;
+    }
+
+/* tercer página "Your first steps"*/
+.encabezado__firststeps{
+    background-image: url(../Images/img2x.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+.body3{
+    color: rgb(21, 37, 35);
+    font-weight: bolder;
+    font-family:"Shippori Mincho B1", serif ;
+    background-color:white;
+    font-weight: lighter;
+}
+
+
+
+.footer__green{
+    display: inline-block;
+    background-color: rgb(175, 233, 192);
+    padding:5px 120px;
+    font-weight: lighter;
+    }
+
+/* Cuarta página Articles About Skincare */
+
+.grid{
+    display: grid;
+    grid-template-areas:"header header header"
+                        "div1 div2 div3"
+                        "div4 div5 div6"
+                        "section1 section2 section3"
+                        "footer footer footer";
+    gap: 5px;
+   }
+ 
+
+header{
+    grid-area:header;
+}
+
+.div1{
+    grid-area:div1;
+}
+
+.div2{
+    grid-area:div2;
+}
+
+.div3{
+    grid-area:div3;
+}
+
+.div4{
+    grid-area:div4;
+}
+
+.div5{
+    grid-area:div5 ;
+}
+
+.div6{
+    grid-area:div6;
+}
+
+
+footer{
+    grid-area:footer;
+}
+
+.section1{
+    grid-area:section1;
+}
+
+.section2{
+    grid-area:section2;
+}
+
+.section3{
+    grid-area:section3;
+}
+    
+.HeaderAr{
+    height: 150px;
+    background-color: burlywood;
+    font-family:'Benne', serif;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: end;
+    color: cornsilk;
+    letter-spacing:5px;
+    }
+
+.FlexboxDivs{
+        display: flex;
+        justify-content: center;
+      align-content: space-between;
+    }
+
+.SectionStyle{
+    background-color: rgb(223, 186, 138);
+    width: 300px;
+    height: 300px;
+    font-family:'Benne', serif;
+    font-style:lighter;
+    font-size: 30px;
+    margin:30px 50px 30px 96px;
+    padding: 15px;
+}
+
+.FlexboxSection{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   align-content: center;
+   align-items: center;
+    }
+
+#ChangeImage:hover{
+    background-image: url(../Images/section1.jpg)
+}
+
+#ChangeImage2:hover{
+    background-image: url(../Images/section2.png);
+}
+
+#ChangeImage3:hover{
+    background-image: url(../Images/section3.jpg);
+}
+
+
+/* Mobil style */
+@media screen and (max-width: 320px){
+    .grid{
+        display: grid;
+        grid-template-areas: 
+                            "header "
+                            "div1"
+                            "div2"
+                            "div3"
+                            "div4"
+                            "div5"
+                            "div6"
+                            "section1"
+                            "section2"
+                            "section3"
+                            "footer";
+      background-color: white;                      
+    }
+}
+
+/* Ipad style */
+@media screen and (max-width: 768px){
+    .grid{
+        display: grid;
+        grid-template-areas: 
+                            "header header"
+                            "div1 div2"
+                            "div3 div4"
+                            "div5 div6"
+                            "section1 section2"
+                            "section3 ."
+                            "footer footer";
+                            grid-template-columns: repeat(2,1fr)
+        gap: 5px;
+        background-color: white;
+    }
+}
+
+
+/* desktop style */
+@media screen and (max-width: 1024px){
+    .grid{
+        display: grid;
+        grid-template-areas:
+                            "header header"
+                            "div1 div2"
+                            "div3 div4"
+                            "div5 div6"
+                            "section1 section2"
+                            "section3 ."
+                            "footer footer";
+                           grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+        background-color: white;
+       }
+
+/* Skincare in Argentina */
+
+.FlexA{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+ }
+
