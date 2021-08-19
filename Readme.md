@@ -1,0 +1,1 @@
+This website was made for teaching people about skincare and Make up.
