@@ -225,7 +225,6 @@ table{
     grid-template-areas:"header header header"
                         "div1 div2 div3"
                         "div4 div5 div6"
-                        "section1 section2 section3"
                         "footer footer footer";
     gap: 5px;
    }
@@ -264,17 +263,7 @@ footer{
     grid-area:footer;
 }
 
-.section1{
-    grid-area:section1;
-}
 
-.section2{
-    grid-area:section2;
-}
-
-.section3{
-    grid-area:section3;
-}
     
 .HeaderAr{
     height: 150px;
@@ -293,24 +282,7 @@ footer{
       align-content: space-between;
     }
 
-.SectionStyle{
-    background-color: rgb(223, 186, 138);
-    width: 300px;
-    height: 300px;
-    font-family:'Benne', serif;
-    font-style:lighter;
-    font-size: 30px;
-    margin:30px 50px 30px 96px;
-    padding: 15px;
-}
 
-.FlexboxSection{
-    display: flex;
-    flex-direction: row;
-   justify-content: space-between;
-   align-content: center;
-   align-items: center;
-    }
 
 #ChangeImage:hover{
     background-image: url(../Images/section1.jpg)
@@ -337,9 +309,6 @@ footer{
                             "div4"
                             "div5"
                             "div6"
-                            "section1"
-                            "section2"
-                            "section3"
                             "footer";
       background-color: white;                      
     }
@@ -354,8 +323,6 @@ footer{
                             "div1 div2"
                             "div3 div4"
                             "div5 div6"
-                            "section1 section2"
-                            "section3 ."
                             "footer footer";
                             grid-template-columns: repeat(2,1fr)
         gap: 5px;
@@ -373,8 +340,6 @@ footer{
                             "div1 div2"
                             "div3 div4"
                             "div5 div6"
-                            "section1 section2"
-                            "section3 ."
                             "footer footer";
                            grid-template-columns: repeat(2,1fr);
         gap: 5px;
