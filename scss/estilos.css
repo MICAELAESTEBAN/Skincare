@@ -10,26 +10,21 @@ table {
 }
 
 .tamano {
-  font-size: 15px;
+  font-size: 20px;
   color: #9e2a2b;
 }
 
 .tamano2 {
-  font-size: 25px;
-  color: #9e2a2b;
-}
-
-.tamano3 {
-  font-size: 35px;
+  font-size: 21px;
   color: #9e2a2b;
 }
 
 h2 {
-  color: #540b0e;
+  color: black;
 }
 
 .text1, .text2 {
-  font-family: cursive;
+  font-family: 'Playfair Display', serif;
   font-weight: lighter;
 }
 
@@ -38,12 +33,12 @@ h2 {
 }
 
 .HeaderArg {
-  background-color: #f4d35e;
+  background-color: #9e2a2b;
   height: 100px;
   width: 100%;
-  font-size: 80px;
+  font-size: 50px;
   color: cornsilk;
-  margin-bottom: 100px;
+  font-family: 'Playfair Display', serif;
 }
 
 .sizediv {
@@ -52,16 +47,16 @@ h2 {
 }
 
 .divstyles1 {
-  font-size: 20px;
+  font-size: 10px;
   font-weight: bolder;
 }
 
 .divstyle2 {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: lighter;
 }
 
 .sectiondivs {
-  background-color: #f4d35e;
+  background-color: #9e2a2b;
 }
 /*# sourceMappingURL=Estilos.css.map */

@@ -10,6 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=EB+Garamond&family=Kaisei+Tokumin&family=Playfair+Display&display=swap');
 
 /*Primer página "Home!*/
 .encabezado__index{
@@ -338,4 +339,3 @@ footer{
     flex-direction:row;
     justify-content: space-between;
  }
-

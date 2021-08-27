@@ -13,7 +13,7 @@ table{
 
 @import "pages/Skincareinargentina";
 
-        $tamanio: 15px;
+        $tamanio: 20px;
 
         .tamano{
             font-size: $tamanio;
@@ -21,17 +21,14 @@ table{
         }
 
         .tamano2{
-            font-size: $tamanio + 10px;
+            font-size: $tamanio + 1px;
             color: $bordo;
         }
 
-        .tamano3{
-            font-size: $tamanio + 20px;
-            color: $bordo;
-        }
+    
 
     h2{
-        @if $tamanio > 10px{
+        @if $tamanio > 20px{
             color: $bordo2;
         }@else if $tamanio < 15px{
             color: $bordo;
@@ -41,7 +38,7 @@ table{
     }
 
     .text1{
-        font-family: cursive;
+        font-family:'Playfair Display', serif;
         font-weight: lighter;
     }
 
@@ -53,13 +50,13 @@ table{
     $yellow: #f4d35e;
 
     .HeaderArg{
-        background-color: $yellow;
+        background-color: $bordo;
         height: 100px;
         width: 100%;
-        font-size: 80px;
+        font-size: 50px;
         color: cornsilk;
-        margin-bottom: 100px;
-    }
+        font-family:'Playfair Display', serif;
+        }
 
     
 
@@ -73,7 +70,7 @@ table{
         @include sizes(200px,100px)
     }
 
-    $size1: 20px;
+    $size1: 10px;
     
 
  .divstyles1{
@@ -87,9 +84,9 @@ table{
 }
 
 .sectiondivs{
-    @if $size1 < 25px{
-    background-color: $yellow;
-}@else if $size1 > 20px{
+    @if $size1 < 15px{
+    background-color: $bordo;
+}@else if $size1 > 10px{
     background-color: $lightorange;
     }@else{
     background-color: white; 
