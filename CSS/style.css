@@ -103,32 +103,18 @@
 
 
 .imagen__contacto{
+    width: 150px;
+    height: 150px;
     display: flex;
     position:fixed;
     bottom: 20px; right: 20px;
      }
 
- /*Submenu*/
-
-    .menu ul{
-        list-style: none;
-        }
-    .menu .item{
-        float:left;
-    }
-    .menu .item a{
-        padding:12px 22px ;
-        text-decoration: none;
-        display: block;
-        font-size: 20px;
-    }
-    .menu .desple {
-        display: none;
-        }
-    .menu .item:hover .desple{
-        display: block;
-        position: absolute;
-        }
+ .hipervinculo{
+     color: brown;
+     text-decoration: none;
+     font-weight: lighter;
+ }
 
 
 /*Segunda página "Skincare routine"*/
@@ -185,7 +171,7 @@ table{
     padding-top: 10px;
     font-size: 100px;
     font-family:'Nanum Myeongjo', serif;
-}
+    }
 
 .body3{
     color: rgb(21, 37, 35);
@@ -193,6 +179,7 @@ table{
     font-family:"Shippori Mincho B1", serif ;
     background-color:white;
     font-weight: lighter;
+    text-align: center;
 }
 
 
@@ -270,19 +257,6 @@ footer{
 
 
 
-#ChangeImage:hover{
-    background-image: url(../Images/section1.jpg)
-}
-
-#ChangeImage2:hover{
-    background-image: url(../Images/section2.png);
-}
-
-#ChangeImage3:hover{
-    background-image: url(../Images/section3.jpg);
-}
-
-
 /* Mobil style */
 @media screen and (max-width: 320px){
     .grid{
@@ -339,3 +313,8 @@ footer{
     flex-direction:row;
     justify-content: space-between;
  }
+
+.espaciossk{
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
