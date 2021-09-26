@@ -11,6 +11,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ballet&family=EB+Garamond&family=Kaisei+Tokumin&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
 
 /*Primer página "Home!*/
 .encabezado__index{
@@ -39,8 +42,8 @@
 
 
 .li{
-    display: inline-block;
-    background-color: rgb(247, 206, 192);
+    text-decoration: none;
+    background-color:  cornsilk;
     padding: 5px 120px;
 }
 
@@ -49,7 +52,7 @@
 }
 
 .margin{
-    margin: 40px 40px;
+    margin: 40px;
 }
 
 .space{
@@ -221,14 +224,15 @@ font-weight: bolder;
 .formulario{
     text-align: center;
     align-items: center;
-    background-color: coral;
+    background-color: coral; 
     color: white;
     align-content: center;
+    font-family: 'Italianno', serif;
 }
 
-table{
-    background-color: burlywood;
-    }
+
+
+    
 
 /* tercer página "Your first steps"*/
 .encabezado__firststeps{
