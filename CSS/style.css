@@ -258,10 +258,9 @@ font-weight: bolder;
 }
 
 .footer__green{
-    display: inline-block;
     background-color: rgb(175, 233, 192);
-    padding:5px 90px;
     font-weight: lighter;
+    text-align: left;
 }
 
 /* Cuarta página Articles About Skincare */
