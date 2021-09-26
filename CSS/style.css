@@ -238,10 +238,12 @@ table{
 
 
 
+
+
 .footer__green{
     display: inline-block;
     background-color: rgb(175, 233, 192);
-    padding:5px 120px;
+    padding:5px 90px;
     font-weight: lighter;
     }
 
@@ -303,10 +305,10 @@ footer{
     background-color: burlywood;
     font-family:'Benne', serif;
     font-weight: lighter;
-    font-size: 50px;
-    text-align: end;
+    font-size: 40px;
     color: cornsilk;
     letter-spacing:5px;
+    text-align: left;
     }
 
 .FlexboxDivs{
@@ -317,12 +319,27 @@ footer{
 
 
 
-/* Mobil style */
-@media screen and (max-width: 320px){
-    .grid{
+/* iPad style */
+@media screen and (max-width: 910px) {
+    .grid {
         display: grid;
-        grid-template-areas: 
-                            "header"
+        grid-column: 1fr 1fr;
+        grid-template-areas:"header header"
+                            "nav nav"
+                            "div1 div2"
+                            "div3 div4"
+                            "div5 div6"
+                            "footer footer";
+        gap: 5px;
+    }
+}
+
+/* Mobile style */
+@media screen and (max-width:630px) {
+    .grid {
+        display: grid;
+        grid-column: 1fr;
+        grid-template-areas:"header"
                             "nav"
                             "div1"
                             "div2"
@@ -331,44 +348,10 @@ footer{
                             "div5"
                             "div6"
                             "footer";
-      background-color: white;                      
+        gap: 5px;
+        font-size: 20px;
     }
 }
-
-/* Ipad style */
-@media screen and (max-width: 768px){
-    .grid{
-        display: grid;
-        grid-template-areas: 
-                            "header header"
-                            "nav nav"
-                            "div1 div2"
-                            "div3 div4"
-                            "div5 div6"
-                            "footer footer";
-                            grid-template-columns: repeat(2,1fr)
-        gap: 5px;
-        background-color: white;
-    }
-}
-
-
-/* desktop style */
-@media screen and (max-width: 1024px){
-    .grid{
-        display: grid;
-        grid-template-areas:
-                            "header header"
-                            "nav nav"
-                            "div1 div2"
-                            "div3 div4"
-                            "div5 div6"
-                            "footer footer";
-                           grid-template-columns: repeat(2,1fr);
-        gap: 5px;
-        background-color: white;
-       }
-
 
 /* Skincare in Argentina */
 
