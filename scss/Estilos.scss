@@ -81,15 +81,15 @@ table{
 .divstyle2{
     font-size: $size1 + 5px;
     font-weight: lighter;
-}
+    }
 
 .sectiondivs{
     @if $size1 < 15px{
-    background-color: $bordo;
+    background-color: white;
 }@else if $size1 > 10px{
     background-color: $lightorange;
     }@else{
-    background-color: white; 
+    background-color: black; 
 }
 }
     
